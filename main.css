@@ -1,0 +1,122 @@
+/* Set the background to the wallpaper image, cover the entire screen */
+body {
+    background: url('wallpaper.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: "Chelsea Market", system-ui; /* Font family */
+    font-weight: 400; /* Font weight */
+    font-style: normal; /* Font style */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the content */
+.container {
+    width: 70%; /* Set the width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding */
+    background: rgba(26, 26, 26, 0.8); /* Semi-transparent background */
+    border-radius: 10px; /* Rounded corners */
+    backdrop-filter: blur(10px); /* Blur effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow */
+    text-align: center; /* Center text inside the container */
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 20px; /* Add space below the header */
+}
+
+header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 2.5em; /* Set font size */
+    color: white; /* Text color */
+}
+
+/* Info and school section styles */
+.info, .school {
+    margin-bottom: 20px; /* Add space below each section */
+}
+
+/* Border styles for section titles */
+h2 {
+    width: 70%; /* Set the width of the border */
+    margin: 0 auto; /* Center the border within the container */
+    border-bottom: 2px solid white; /* Border style */
+    padding-bottom: 5px; /* Add space below the border */
+    color: #ffcc00; /* Border color */
+}
+
+/* Paragraph styles */
+p {
+    margin: 10px 0; /* Set margin for paragraphs */
+}
+
+/* Anchor styles */
+a {
+    color: #ffcc00; /* Link color */
+    text-decoration: none; /* Remove default underline */
+}
+
+/* Hover styles for anchor */
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Icon styles */
+.icon {
+    width: 1.2em; /* Adjust the size to match the text */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align with the text */
+}
+
+/* Slideshow container styles */
+.slideshow-container {
+    position: relative; /* Position relative to its container */
+    max-width: 100%; /* Set maximum width */
+    margin: 20px auto; /* Add space around the slideshow */
+}
+
+/* Individual slide styles */
+.mySlides {
+    display: none; /* Hide slides by default */
+}
+
+/* Image styles within slides */
+.mySlides img {
+    width: 50%; /* Set the width of the images */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Next & previous button styles */
+.prev, .next {
+    cursor: pointer; /* Set cursor to pointer */
+    position: absolute; /* Position absolute for custom placement */
+    top: 50%; /* Position from the top */
+    width: auto; /* Auto width */
+    padding: 16px; /* Padding */
+    color: white; /* Text color */
+    font-weight: bold; /* Bold font */
+    font-size: 18px; /* Font size */
+    transition: 0.6s ease; /* Smooth transition */
+    user-select: none; /* Prevent text selection */
+    transform: translateY(-50%); /* Move up 50% from the top */
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 5%; /* Adjust the distance from the right */
+    border-radius: 3px 0 0 3px; /* Rounded corners */
+}
+
+/* Position the "prev button" to the left */
+.prev {
+    left: 5%; /* Adjust the distance from the left */
+    border-radius: 0 3px 3px 0; /* Rounded corners */
+}
+
+/* Hover styles for buttons */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background on hover */
+}
